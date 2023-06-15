@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D47A0E55-0F5F-3598-2608-63B12C2B242C}</ProjectGuid>
+    <ProjectGuid>{C0AB138D-542C-41FE-005B-64457D82D91F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,10 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\SCRIPT\PlayerChoiceNumber.cs" />
-    <Compile Include="Assets\SCRIPT\RecordVoice.cs" />
-    <Compile Include="Assets\SCRIPT\WordGenerator.cs" />
-    <Compile Include="Assets\SCRIPT\TypingController.cs" />
     <Compile Include="Assets\SCRIPT\TypingController2.cs" />
+    <Compile Include="Assets\SCRIPT\WordGenerator.cs" />
+    <Compile Include="Assets\sound_Controller.cs" />
+    <Compile Include="Assets\SCRIPT\TypingController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

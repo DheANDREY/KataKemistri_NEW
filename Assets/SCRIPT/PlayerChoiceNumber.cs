@@ -23,28 +23,28 @@ public class PlayerChoiceNumber : MonoBehaviour
     public void binatangOK()
     {
         wg.catSelected = true;
-        numbPlayer = 0;
+        numbPlayer = 0; sound_Controller.instance.sfxKlik();
         WordCategoryMenu.SetActive(false);
         ScoreMenu.SetActive(true);
     }
     public void tumbuhanOK()
     {
         wg.catSelected = true;
-        numbPlayer = 1;
+        numbPlayer = 1; sound_Controller.instance.sfxKlik();
         WordCategoryMenu.SetActive(false);
         ScoreMenu.SetActive(true);
     }
     public void bendaOK()
     {
         wg.catSelected = true;
-        numbPlayer = 2;
+        numbPlayer = 2; sound_Controller.instance.sfxKlik();
         WordCategoryMenu.SetActive(false);
         ScoreMenu.SetActive(true);
     }
     public void acakOK()
     {
         wg.catSelected = true;
-        numbPlayer = 3;
+        numbPlayer = 3; sound_Controller.instance.sfxKlik();
         WordCategoryMenu.SetActive(false);
         ScoreMenu.SetActive(true);
     }
@@ -61,10 +61,12 @@ public class PlayerChoiceNumber : MonoBehaviour
         int randomPlayer = Random.Range(0, 2);
         if(randomPlayer == 0)
         {
+            sound_Controller.instance.sfxKlik();
             playerS1.SetActive(true);
         }
         else
         {
+            sound_Controller.instance.sfxKlik();
             playerS2.SetActive(true);
         }
     }

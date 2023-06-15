@@ -6,9 +6,12 @@ using UnityEngine.UI;
 public class WordGenerator : MonoBehaviour
 {
     public Text kataUtama;
-    string[] kataBinatang = new string[] { "Kucing", "Anjing", "Kuda", "Lele" };
-    string[] kataTumbuhan = new string[] { "Padi", "Kaktus", "Cemara", "Eceng Gondok" };
-    string[] kataBenda = new string[] { "Kursi", "Pulpen", "Kemeja", "Pintu" };
+    string[] kataBinatang = new string[] { "Kucing", "Anjing", "Kuda", "Lele", "Bebek", "Merpati", "Hiu",
+    "Angsa", "Ayam", "Buaya", "Badak", "Rusa", "Cacing", "Belalang", "Tokek", "Capung"};
+    string[] kataTumbuhan = new string[] { "Padi", "Kaktus", "Cemara", "Melati", "Lidah Buaya", 
+        "Kelapa", "Bambu", "Teratai", "Anggrek", "Paku", "Lumut", "Tebu", "Sirih", "Jati", "Karet" };
+    string[] kataBenda = new string[] { "Kursi", "Pulpen", "Kemeja", "Pintu", "Handuk", "Dasi", "Lampion",
+    "Kipas", "Televisi", "Jaket", "Lemari", "Pigura", "Botol", "Kardus", "Tangga", "Radio"};
     public static int randomIndex;
     public bool catSelected = false;
 
@@ -75,7 +78,7 @@ public class WordGenerator : MonoBehaviour
         randomIndex = Random.Range(0, kataTumbuhan.Length);
         kataUtama.text = kataBenda[randomIndex];
     }
-    private int chanceSwap = 2;
+    public int chanceSwap = 2;
     public void gantiKata()
     {
         chanceSwap -= 1;

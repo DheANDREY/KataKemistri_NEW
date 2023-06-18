@@ -9,7 +9,8 @@ public class WordGenerator : MonoBehaviour
     string[] kataBinatang = new string[] { "Kucing", "Anjing", "Kuda", "Lele", "Bebek", "Merpati", "Hiu",
     "Angsa", "Ayam", "Buaya", "Badak", "Rusa", "Cacing", "Belalang", "Tokek", "Capung"};
     string[] kataTumbuhan = new string[] { "Padi", "Kaktus", "Cemara", "Melati", "Lidah Buaya", 
-        "Kelapa", "Bambu", "Teratai", "Anggrek", "Paku", "Lumut", "Tebu", "Sirih", "Jati", "Karet" };
+        "Kelapa", "Bambu", "Teratai", "Anggrek", "Paku", "Lumut", "Tebu", "Sirih", "Jati", "Karet", "Kapuk"
+    , "Singkong", "Pisang", "Kacang", "Terong", "Asem", "Bawang", "Cengkeh", "Cabai", "Gayam", "Nangka"};
     string[] kataBenda = new string[] { "Kursi", "Pulpen", "Kemeja", "Pintu", "Handuk", "Dasi", "Lampion",
     "Kipas", "Televisi", "Jaket", "Lemari", "Pigura", "Botol", "Kardus", "Tangga", "Radio"};
     public static int randomIndex;

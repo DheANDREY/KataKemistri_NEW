@@ -90,4 +90,13 @@ public class PlayerChoiceNumber : MonoBehaviour
     {
         get { return skor2; }
     }
+    public GameObject TutorPanel;
+    public void openTutorial()
+    {
+        TutorPanel.SetActive(true);
+    }
+    public void closeTutorial()
+    {
+        TutorPanel.SetActive(false);
+    }
 }

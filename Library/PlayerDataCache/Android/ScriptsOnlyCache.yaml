@@ -25,6 +25,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -43,6 +44,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -75,19 +77,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1538}
+      Script: {instanceID: 1540}
     - Class: 114
-      Script: {instanceID: 1802}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 1818}
+      Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 2186}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 2192}
+      Script: {instanceID: 2188}
+    - Class: 114
+      Script: {instanceID: 2194}
     - Class: 114
       Script: {instanceID: 2594}
     - Class: 114
       Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2796}
     - Class: 114
       Script: {instanceID: 2964}
     - Class: 114
@@ -199,7 +205,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: eb9c75c8eeaabf6d09918b2de93cd23d
+      Hash: d2ec0c1b8fb6530337ce645019c4f65f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerChoiceNumber
@@ -403,7 +409,7 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: 391828af5f9d0d27172bd2ec888ab068
+      Hash: 71106f844a079ae799fe55acf5f76a75
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TypingController2
@@ -661,7 +667,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: bd52ede049c41a3639320eb65ad556c6
+      Hash: 5700781655ba46918920d5b3c096fe8a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TypingController
@@ -674,4 +680,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Asus/Documents/GitHub/KataKemistri_NEW/BUILD/KATA_Kemistri_Beta.apk
+  playerPath: C:/Users/Asus/Documents/GitHub/KataKemistri_NEW/BUILD/KATA_Kemistri_Beta4.apk

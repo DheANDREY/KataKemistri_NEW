@@ -59,7 +59,7 @@
     <Compile Include="Assets\SCRIPT\PlayerChoiceNumber.cs" />
     <Compile Include="Assets\SCRIPT\TypingController2.cs" />
     <Compile Include="Assets\SCRIPT\WordGenerator.cs" />
-    <Compile Include="Assets\sound_Controller.cs" />
+    <Compile Include="Assets\SCRIPT\sound_Controller.cs" />
     <Compile Include="Assets\SCRIPT\TypingController.cs" />
   </ItemGroup>
   <ItemGroup>

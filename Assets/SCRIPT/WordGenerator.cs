@@ -40,7 +40,7 @@ public class WordGenerator : MonoBehaviour
                 case 3:
                     startRandom();
                     break;
-            }
+            }           
             catSelected = false;
         }
     }
@@ -81,12 +81,16 @@ public class WordGenerator : MonoBehaviour
     }
     public int chanceSwap = 2;
     public void gantiKata()
-    {
-        chanceSwap -= 1;
-        if (chanceSwap >= 0)
+    {        
+        if (chanceSwap > 0)
         {
+            chanceSwap -= 1;
             catSelected = true;
-            Debug.Log("sisa= "+ chanceSwap);
-        }
+            if (chanceSwap < 0)
+            {
+                chanceSwap = 0;
+            }
+            Debug.Log("sisa= "+ chanceSwap);            
+        }        
     }
 }
